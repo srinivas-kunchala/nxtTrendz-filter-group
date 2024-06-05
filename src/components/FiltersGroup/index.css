@@ -1,0 +1,43 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+li {
+  display: flex;
+}
+
+.rating-image {
+  height: 40px;
+  width: 160px;
+  margin-right: 20px;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+}
+.button-item {
+  margin-bottom: 10px;
+}
+
+.clear-btn {
+  color: blueviolet;
+  border: 2px blueviolet solid;
+  border-radius: 10px;
+  padding: 10px;
+}
